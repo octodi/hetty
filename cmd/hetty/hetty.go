@@ -35,11 +35,6 @@ import (
 )
 
 var version = "0.0.0"
-
-//go:embed admin
-//go:embed admin/_next/static
-//go:embed admin/_next/static/chunks/pages/*.js
-//go:embed admin/_next/static/*/*.js
 var adminContent embed.FS
 
 var hettyUsage = `
